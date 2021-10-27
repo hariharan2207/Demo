@@ -14,18 +14,19 @@
 <body>  
 
     <center> <h1> LOGIN </h1> </center> 
-    <form>
+    <form name="login">
         <div class="container"> 
             <link href="style.css " rel="stylesheet">
             <label>Username : </label> 
-            <input type="text" placeholder="Enter Username" name="username" required>
+            <input type="text" placeholder="Enter Username" value="" name="input1" required>
             <label>Password : </label> 
-            <input type="password" placeholder="Enter Password" name="password" required>
-            <button type="submit">Login</button> 
+            <input type="password" placeholder="Enter Password" value="" name="input2" required>
+            <button type="submit" onclick="form_validation()">Login</button> 
             <input type="checkbox" checked="checked"> Remember me 
             <button type="button" class="cancelbtn"> Cancel</button> 
             Forgot <a href="#"> password? </a> 
         </div> 
-    </form>   
+    </form> 
+    <script src="login form validation.js"></script>  
 </body>   
 </html>
