@@ -1,42 +1,43 @@
-<!DOCTYPE html> 
-<html> 
+<!DOCTYPE html>
+<html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title> Login Page </title>
-<style>
-    body {
-      background-image: url('background.jpg');
-      
-    }
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login Page</title>
+    <style>
+        body {
+            background-image: url("background.jpg");
+        }
     </style>
+    <link href="style.css " rel="stylesheet" />
+    <script src="login form validation.js"></script>
+</head>
 
+<body>
+    <form id="loginForm" >
+        <div class="container">
+            <h1>LOGIN</h1>
 
-</head>  
-<body >  
-
-    
-    <form>
-        <div class="container"> 
-            
-            <h1> LOGIN </h1>
-            <link href="style.css " rel="stylesheet">
-            <label>Username : </label> 
-            <input type="text" placeholder="Enter Username" name="username" required>
-            <label>Password : </label> 
-            <input type="password" placeholder="Enter Password" name="password" required>
-            <button type="submit">Login</button> 
-            <input type="checkbox" checked="checked"> Remember me 
-            <button type="button" class="cancelbtn"> Cancel</button> 
-            Forgot <a href="#"> password? </a> 
-        </div> 
-    </form>   
+            <label>Username : </label>
+            <input type="text" placeholder="Enter Username" id="input1" value="" required />
+            <label>Password : </label>
+            <input type="password" placeholder="Enter Password" id="input2" value="" required />
+            <button type="button" onclick="form_validation()">Login</button>
+            <input type="checkbox" checked="checked" /> Remember me
+            <button type="button" class="cancelbtn">Cancel</button>
+            Forgot <a href="#"> password? </a>
+        </div>
+    </form>
     <div class="new">
         <h1>Make your LOGIN</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
-            ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
-            Perspiciats.
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere,
+            soluta magnam consectetur molestias itaque ad sint fugit architecto
+            incidunt iste culpa perspiciatis possimus voluptates aliquid
+            consequuntur cumque quasi. Perspiciats.
         </p>
     </div>
-    <div></div>
-</body>   
+
+</body>
+
 </html>
